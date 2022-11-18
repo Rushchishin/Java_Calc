@@ -27,7 +27,7 @@ public class Main {
     }
 
     private static Boolean isArabicProblem (String[] input) {
-        if (isArabic(input[0]) & isSymbol(input[1]) & isArabic(input[2])) {
+        if (isArabic(input[0]) && isSymbol(input[1]) && isArabic(input[2])) {
             return true;
         } else {
             return false;
@@ -35,7 +35,7 @@ public class Main {
     }
 
     private static Boolean isRomanProblem (String[] input) {
-        if (isRoman(input[0]) & isSymbol(input[1]) & isRoman(input[2])) {
+        if (isRoman(input[0]) && isSymbol(input[1]) && isRoman(input[2])) {
             return true;
         } else {
             return false;
